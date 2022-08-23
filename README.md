@@ -1,6 +1,6 @@
-###GBank Application
+### GBank Application
 
-#PT-BR
+# PT-BR
 
 Esta versão do aplicativo/programa trata-se de uma versão de testes e funciona apenas como um protótipo, ainda não possuindo muitos detalhes e funções 100% implementadas. Considere fazer uso do botão About na tela de login do aplicativo, lá constarão uma breve descrição do aplicativo e instruções de como utilizá-lo.
 
@@ -21,7 +21,7 @@ Dúvidas e/ou erros, contate o desenvolvedor do aplicativo:
 E-mail: gigazin@hotmail.com
 GitHub: @gigazin | github.com/gigazin
 
-#EN-US
+# EN-US
 
 This is a testing version of the application and is not completely finished, missing some things that were not implemented yet. Click the About button at the top-left corner of the login screen for more information. By the way, it's pending translation as everything is currently written in Brazilian-Portuguese.
 

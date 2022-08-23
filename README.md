@@ -23,9 +23,9 @@ GitHub: @gigazin | github.com/gigazin
 
 ## EN-US
 
-This is a testing version of the application and is not completely finished, missing some things that were not implemented yet. Click the About button at the top-left corner of the login screen for more information. By the way, it's pending translation as everything is currently written in Brazilian-Portuguese.
+This is a testing version of the app and is not completely finished, missing some things that were not implemented yet. Click the About button at the top-left corner of the login screen for more information. By the way, it's pending translation as everything is currently written in Brazilian-Portuguese.
 
-How to use the application:
+How to use the app:
 
 1 - You will need Java (17.0.1 or latest) to run the program. You can download it at Oracle's official download website: https://www.oracle.com/java/technologies/downloads/
 

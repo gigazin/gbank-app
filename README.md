@@ -18,7 +18,7 @@ link para download do Java SDK direto do site da Oracle: https://www.oracle.com/
 5 - Clicar no botão Sair irá levá-lo novamente para a tela de Login. O uso da mesma consta no tópico 3. (Caso tenha salvo os dados da conta teste em algum lugar, não é necessário clicar em About para vê-los novamente, basta fazer login com os mesmos.)
 
 Dúvidas e/ou erros, contate o desenvolvedor do aplicativo:  
-E-mail: gigazin@hotmail.com
+E-mail: gigazin@hotmail.com  
 GitHub: @gigazin | github.com/gigazin
 
 ## EN-US
@@ -38,5 +38,5 @@ How to use the application:
 5 - Clicking in the "Sair" button will take you back to the login screen.
 
 If you want to ask something or experience any bugs or failures, please contact me at:  
-E-mail: gigazin@hotmail.com
+E-mail: gigazin@hotmail.com  
 GitHub: @gigazin | github.com/gigazin

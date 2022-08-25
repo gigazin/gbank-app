@@ -44,3 +44,8 @@ If you want to ask something or experience any bugs or failures, please contact 
 E-mail: gigazin@hotmail.com  
 GitHub: @gigazin | github.com/gigazin </p>
 </div>
+
+<div align="center">
+  <h1> Interface Prototype </h1>
+  <img src="./Interface prototype/GBank Interface Prototype.png"/>
+</div>

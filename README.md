@@ -1,8 +1,11 @@
-###GBank Application
+<div align="center">
+  <h1> GBank Application </h1>
+</div>
 
-#PT-BR
+<div>
+<h2> PT-BR </h2>
 
-Esta versão do aplicativo/programa trata-se de uma versão de testes e funciona apenas como um protótipo, ainda não possuindo muitos detalhes e funções 100% implementadas. Considere fazer uso do botão About na tela de login do aplicativo, lá constarão uma breve descrição do aplicativo e instruções de como utilizá-lo.
+<p> Esta versão do aplicativo/programa trata-se de uma versão de testes e funciona apenas como um protótipo, ainda não possuindo muitos detalhes e funções 100% implementadas. Considere fazer uso do botão About na tela de login do aplicativo, lá constarão uma breve descrição do aplicativo e instruções de como utilizá-lo.
 
 Como utilizar o aplicativo:
 
@@ -17,15 +20,15 @@ link para download do Java SDK direto do site da Oracle: https://www.oracle.com/
 
 5 - Clicar no botão Sair irá levá-lo novamente para a tela de Login. O uso da mesma consta no tópico 3. (Caso tenha salvo os dados da conta teste em algum lugar, não é necessário clicar em About para vê-los novamente, basta fazer login com os mesmos.)
 
-Dúvidas e/ou erros, contate o desenvolvedor do aplicativo:
-E-mail: gigazin@hotmail.com
-GitHub: @gigazin | github.com/gigazin
+Dúvidas e/ou erros, contate o desenvolvedor do aplicativo:  
+E-mail: gigazin@hotmail.com  
+GitHub: @gigazin | github.com/gigazin </p>
 
-#EN-US
+<h2> EN-US </h2>
 
-This is a testing version of the application and is not completely finished, missing some things that were not implemented yet. Click the About button at the top-left corner of the login screen for more information. By the way, it's pending translation as everything is currently written in Brazilian-Portuguese.
+<p> This is a testing version of the app and is not completely finished, missing some things that were not implemented yet. Click the About button at the top-left corner of the login screen for more information. By the way, it's pending translation as everything is currently written in Brazilian-Portuguese.
 
-How to use the application:
+How to use the app:
 
 1 - You will need Java (17.0.1 or latest) to run the program. You can download it at Oracle's official download website: https://www.oracle.com/java/technologies/downloads/
 
@@ -37,6 +40,12 @@ How to use the application:
 
 5 - Clicking in the "Sair" button will take you back to the login screen.
 
-If you want to ask something or experience any bugs or failures, please contact me at:
-E-mail: gigazin@hotmail.com
-GitHub: @gigazin | github.com/gigazin
+If you want to ask something or experience any bugs or failures, please contact me at:  
+E-mail: gigazin@hotmail.com  
+GitHub: @gigazin | github.com/gigazin </p>
+</div>
+
+<div align="center">
+  <h1> Interface Prototype </h1>
+  <img src="./Interface prototype/GBank Interface Prototype.png"/>
+</div>

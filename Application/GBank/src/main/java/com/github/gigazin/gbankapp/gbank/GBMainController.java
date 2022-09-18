@@ -321,7 +321,7 @@ public class GBMainController {
                                         
                     """ + new InvalidInputException("Input Has Invalid Characters."), Alert.AlertType.ERROR);
         }
-        if (!balanceCheck()) {
+        if (getTestSavingsBalance() <= 0) {
             Alerts.showAlert("Insufficient Balance Error", null, """
                     Seu saldo é insuficiente para esta transação.
                                         

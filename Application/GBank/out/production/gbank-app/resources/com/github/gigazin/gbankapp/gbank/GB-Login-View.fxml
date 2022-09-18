@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gigazin.gbankapp.gbank.GBLoginController">
+   <children>
+      <ToolBar prefHeight="40.0" prefWidth="771.0">
+        <items>
+          <Button fx:id="aboutButton" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onAboutButtonClickAction" text="About" textAlignment="CENTER" />
+            <Label fx:id="gbAppDesc" prefHeight="17.0" prefWidth="291.0" text="Clique no botão About para informações e instruções." textAlignment="CENTER" wrapText="true" />
+        </items>
+      </ToolBar>
+      <TextField fx:id="cpfInput" layoutX="564.0" layoutY="126.0" promptText="Informe seu CPF" />
+      <TextField fx:id="passwordInput" layoutX="564.0" layoutY="176.0" promptText="Informe sua senha" />
+      <Label fx:id="cpfText" layoutX="520.0" layoutY="129.0" prefHeight="20.0" prefWidth="33.0" text="CPF" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordText" layoutX="510.0" layoutY="179.0" prefHeight="20.0" prefWidth="49.0" text="Senha" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcomeText" layoutX="581.0" layoutY="63.0" prefHeight="20.0" prefWidth="115.0" text="Bem-Vindo(a)!" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginInstText" layoutX="578.0" layoutY="84.0" prefHeight="33.0" prefWidth="115.0" text="Faça seu login preenchendo os campos abaixo." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="9.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="611.0" layoutY="216.0" mnemonicParsing="false" onAction="#onLoginButtonClickAction" text="Login">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="124.0" fitWidth="284.0" layoutX="65.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GBLogo.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="loginAccountCredentials" layoutX="284.0" layoutY="186.0" prefHeight="60.0" prefWidth="131.0" text="- Conta de LOGIN:&#10;CPF: 758.777.938-75&#10;Senha: 0713" visible="false" wrapText="true" />
+      <Label fx:id="gbText" layoutX="239.0" layoutY="249.0" text="GBank Application. Test Build 0.0.1. Sujeito a alterações." />
+   </children>
+</AnchorPane>

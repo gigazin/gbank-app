@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="266.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gigazin.gbankapp.gbank.GBMainController">
+   <children>
+      <ImageView fx:id="gbLogo" fitHeight="150.0" fitWidth="200.0" layoutX="29.0" layoutY="25.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GBLogo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="gbMainWelcome" layoutX="308.0" layoutY="65.0" prefHeight="51.0" prefWidth="124.0" text="Olá, Usuário!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="gbAccTxt" layoutX="330.0" layoutY="109.0" prefHeight="25.0" prefWidth="81.0" text="Sua conta:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutButton" layoutX="345.0" layoutY="177.0" mnemonicParsing="false" onAction="#onLogoutButtonClickAction" prefHeight="2.0" prefWidth="52.0" text="Sair" />
+      <Label fx:id="gbAcc" layoutX="309.0" layoutY="134.0" prefHeight="25.0" prefWidth="124.0" text="7235-4 91.768-4" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="balanceButton" layoutX="511.0" layoutY="65.0" mnemonicParsing="false" onAction="#onBalanceButtonClickAction" prefHeight="25.0" prefWidth="75.0" text="Saldo" />
+      <Button fx:id="withdrawButton" layoutX="511.0" layoutY="104.0" mnemonicParsing="false" onAction="#onWithdrawButtonClickAction" prefHeight="25.0" prefWidth="75.0" text="Sacar" />
+      <Button fx:id="depositButton" layoutX="511.0" layoutY="145.0" mnemonicParsing="false" onAction="#onDepositButtonClickAction" prefHeight="25.0" prefWidth="75.0" text="Depositar" />
+      <Button fx:id="transferButton" layoutX="511.0" layoutY="186.0" mnemonicParsing="false" onAction="#onTransferButtonClickAction" prefHeight="25.0" prefWidth="75.0" text="Transferir" />
+      <TextField fx:id="withdrawAmount" layoutX="598.0" layoutY="104.0" promptText="Quantia a ser sacada" />
+      <TextField fx:id="depositAmount" layoutX="598.0" layoutY="145.0" promptText="Quantia a ser depositada" />
+      <TextField fx:id="transferAmount" layoutX="598.0" layoutY="186.0" promptText="Quantia a ser transferida" />
+      <Label fx:id="balanceInfo" layoutX="598.0" layoutY="65.0" prefHeight="25.0" prefWidth="149.0" visible="false" />
+      <Label fx:id="gbSavings" layoutX="107.0" layoutY="116.0" text="Poupança">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="gbSavingsBalanceInfo" layoutX="69.0" layoutY="149.0" prefHeight="18.0" prefWidth="159.0" wrapText="true" />
+      <TextField fx:id="savingsInput" layoutX="67.0" layoutY="174.0" prefHeight="25.0" prefWidth="159.0" promptText="Quantia a sacar/depositar" />
+      <Button fx:id="gbSavingsWithdrawButton" layoutX="80.0" layoutY="211.0" mnemonicParsing="false" onAction="#onSavingsWithdrawButtonClickAction" text="Saque" />
+      <Button fx:id="gbSavingsDepositButton" layoutX="147.0" layoutY="211.0" mnemonicParsing="false" onAction="#onSavingsDepositButtonClickAction" text="Depósito" />
+      <Label fx:id="gbText" layoutX="236.0" layoutY="249.0" prefHeight="17.0" prefWidth="299.0" text="GBank Application. Test Build 0.0.1. Sujeito a alterações." />
+   </children>
+</AnchorPane>

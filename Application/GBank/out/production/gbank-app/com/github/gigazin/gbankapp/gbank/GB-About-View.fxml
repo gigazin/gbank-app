@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!-- Texto presente no bloco TextArea, para fácil leitura no código:
+
+Este aplicativo é um projeto ainda em sua fase inicial de produção e teste. Logo, o mesmo ainda não possui tudo o que está previsto para ser implementado nele, e o estado atual não representa a imagem final do produto. Por ainda estar em fase de testes, a conta a ser usada é fictícia e pré-setada (informações da conta constam no fim deste bloco de texto).
+
+Lista do que já foi implementado e está funcionando nesta versão:
+
+- Tela de Login;
+- Tela de About;
+- Telas de Avisos e Erros;
+- Sistema de Login e Logout;
+- Requisitar Saldo (fictício para teste);
+- Transferir Dinheiro (fictício para teste);
+- Depositar Dinheiro (fictício para teste);
+- Poupança (fictício para teste);
+- Sacar Dinheiro (fictício para teste).
+
+Lista do que ainda irá ser implementado:
+
+- Aprimoramentos no sistema de saldo;
+- Tela de Registro;
+- Sistema de Registro;
+- Sistema de Cancelamento de Conta;
+- Sistema de Transferência PIX;
+- Comunicação com Banco de Dados;
+- Visual da Interface;
+- Demais funções ainda não pensadas/planejadas no momento.
+
+Informações da conta fictícia para testes:
+
+- Conta de LOGIN:
+CPF: 758.777.938-75
+Senha: 0713
+
+OBS: Como indicado pelo nome, a conta de LOGIN será utilizada apenas para a realização do login. Não é possível registrar contas no momento. O sistema de transferência funciona de maneira fictícia e semelhante ao de saque (apenas decrementa o saldo da conta), pois ainda não foi implementada uma interface para inserção de uma conta destino, assim como ainda não há um banco de dados atrelado à este aplicativo.
+
+Os dado da conta de login serão agora exibidos na tela principal do aplicativo (apenas para auxílio nos testes). Não é necessário utilizar a pontuação nem hífens durante o preenchimento dos dados (é possível utilizar opcionalmente).
+
+Na tela principal, clique no botão Saldo para exibir o saldo da conta. Não será necessário pressionar o botão novamente após realizar uma das 3 operações disponíveis, pois o saldo será atualizado em tempo real. Sair da conta e entrar novamente irá resetar o valor do saldo (por padrão para testes R$1000 e R$500), já que o sistema ainda funciona de maneira fictícia apenas para demonstrações e realização de testes.
+
+Versão da SDK Java utilizada na compilação deste programa: 17.0.1
+
+Lembre-se, esta é uma versão de testes para demonstração e desenvolvimento e está funcionando como uma simulação/protótipo de como este aplicativo deverá funcionar em seu estado final. Todavia, o estado atual deste aplicativo não representa sua imagem final.
+
+Dúvidas e/ou erros, contate o desenvolvedor deste aplicativo:
+E-mail: gigazin@hotmail.com
+GitHub: @gigazin | github.com/gigazin
+
+Feche esta janela para retornar ao app. -->
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gigazin.gbankapp.gbank.GBAboutController">
+   <children>
+      <ImageView fx:id="gbLogo" fitHeight="92.0" fitWidth="302.0" layoutX="184.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GBLogo.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="txtAbout" layoutX="13.0" layoutY="130.0" prefHeight="246.0" prefWidth="575.0" text="Este aplicativo é um projeto ainda em sua fase inicial de produção e teste. Logo, o mesmo ainda não possui tudo o que está previsto para ser implementado nele, e o estado atual não representa a imagem final do produto. Por ainda estar em fase de testes, a conta a ser usada é fictícia e pré-setada (informações da conta constam no fim deste bloco de texto).&#10;&#10;Lista do que já foi implementado e está funcionando nesta versão:&#10;&#10;- Tela de Login;&#10;- Tela de About;&#10;- Telas de Avisos e Erros;&#10;- Sistema de Login e Logout;&#10;- Requisitar Saldo (fictício para teste);&#10;- Transferir Dinheiro (fictício para teste);&#10;- Depositar Dinheiro (fictício para teste);&#10;- Poupança (fictício para teste);&#10;- Sacar Dinheiro (fictício para teste).&#10;&#10;Lista do que ainda irá ser implementado:&#10;&#10;- Aprimoramentos no sistema de saldo;&#10;- Tela de Registro;&#10;- Sistema de Registro;&#10;- Sistema de Cancelamento de Conta;&#10;- Sistema de Transferência PIX;&#10;- Comunicação com Banco de Dados;&#10;- Visual da Interface;&#10;- Demais funções ainda não pensadas/planejadas no momento.&#10;&#10;Informações da conta fictícia para testes:&#10;&#10;- Conta de LOGIN:&#10;CPF: 758.777.938-75&#10;Senha: 0713&#10;&#10;OBS: Como indicado pelo nome, a conta de LOGIN será utilizada apenas para a realização do login. Não é possível registrar contas no momento. O sistema de transferência funciona de maneira fictícia e semelhante ao de saque (apenas decrementa o saldo da conta), pois ainda não foi implementada uma interface para inserção de uma conta destino, assim como ainda não há um banco de dados atrelado à este aplicativo.&#10;&#10;Os dado da conta de login serão agora exibidos na tela principal do aplicativo (apenas para auxílio nos testes). Não é necessário utilizar a pontuação nem hífens durante o preenchimento dos dados (é possível utilizar opcionalmente).&#10;&#10;Na tela principal, clique no botão Saldo para exibir o saldo da conta. Não será necessário pressionar o botão novamente após realizar uma das 3 operações disponíveis, pois o saldo será atualizado em tempo real. Sair da conta e entrar novamente irá resetar o valor do saldo (por padrão para testes R$1000 e R$500), já que o sistema ainda funciona de maneira fictícia apenas para demonstrações e realização de testes.&#10;&#10;Versão da SDK Java utilizada na compilação deste programa: 17.0.1&#10;&#10;Lembre-se, esta é uma versão de testes para demonstração e desenvolvimento e está funcionando como uma simulação/protótipo de como este aplicativo deverá funcionar em seu estado final. Todavia, o estado atual deste aplicativo não representa sua imagem final.&#10;&#10;Dúvidas e/ou erros, contate o desenvolvedor deste aplicativo:&#10;E-mail: gigazin@hotmail.com&#10;GitHub: @gigazin | github.com/gigazin&#10;&#10;Feche esta janela para retornar ao app." wrapText="true" />
+      <Label fx:id="gbText" layoutX="153.0" layoutY="383.0" text="GBank Application. Test Build 0.0.1. Sujeito a alterações." />
+   </children>
+</AnchorPane>
